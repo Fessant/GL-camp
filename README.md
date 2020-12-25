@@ -1,6 +1,6 @@
 # GL-camp
 
-To get metrics just type `python3 metrics.py`, this command will show CPU, memory and swap information.
+To print host metrics you have to have installed `python 3+` on your host, clone repo or download `metrics.py` file and just type `python3 metrics.py`, this command will show CPU, memory and swap information.
 If you want get specific data then type `python3 metrics.py mem` or `python3 metrics.py cpu`
 
 Unfortunatelly i'm not so great in Linux, so i didn't found a way to run something in the docker namespace on behalf of root namespace, to get host data.
