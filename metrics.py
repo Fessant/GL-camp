@@ -1,8 +1,5 @@
 import psutil as p
-import os
 from sys import argv
-
-os.system('cat /etc/os-release')
 
 def print_cpu_stat():
     print('system.cpu.idle:', p.cpu_times().idle)
